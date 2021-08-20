@@ -77,7 +77,7 @@ export function Header() {
     >
       <Text color="#fff" fontSize="xs">
               hamsh.me
-            </Text>
+      </Text>
 
       <Flex justifyContent="space-between" alignItems="center">
         {isShowInstallBtn ? (
