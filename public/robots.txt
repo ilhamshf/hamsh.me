@@ -26,4 +26,4 @@ Allow: /$
 User-agent: *
 Allow: /
 
-Sitemap: http://ksana.in/sitemap.xml
+Sitemap: http://hamsh.me/sitemap.xml

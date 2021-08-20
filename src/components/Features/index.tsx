@@ -7,7 +7,7 @@ export function Features() {
     <Container maxW={'5xl'} mx="auto" as="section" mt="16">
       <Stack p={4} spacing="16">
         <Heading textAlign="center" as="h3">
-          Fitur Kunci Ksana.in
+          Fitur Kunci hamsh.me
         </Heading>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
           <Feature

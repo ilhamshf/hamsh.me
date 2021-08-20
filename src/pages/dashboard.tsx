@@ -7,7 +7,7 @@ import { MetaHead, NO_INDEXED } from 'components/MetaHead/MetaHead'
 function Dashboard() {
   return (
     <LayoutAuth>
-      <MetaHead title="Dashboard | Ksana.in" robots={NO_INDEXED} />
+      <MetaHead title="Dashboard | hamsh.me" robots={NO_INDEXED} />
       <Stack
         spacing={8}
         mx={'auto'}

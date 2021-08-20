@@ -1,10 +1,10 @@
 export const HOME: string = process.env.NEXT_PUBLIC_HOME || ''
 export const META_IMAGE: string = `images/meta/meta-small.jpg`
 
-export const META_ICON: string = `${HOME}images/favicon/ksana-48x48.png`
+export const META_ICON: string = `${HOME}images/favicon/Hamsh-48x48.png`
 
-export const github: string = 'https://ksana.in/gh'
-export const splitbeeAnalytics: string = 'https://app.splitbee.io/public/ksana.in'
+export const github: string = 'https://hamsh.me/gh'
+export const splitbeeAnalytics: string = 'https://app.splitbee.io/public/hamsh.me'
 export const tentang: string = '/tentang'
 export const dashboard: string = '/dashboard'
 export const blog: string = '/blog'

@@ -25,7 +25,7 @@ interface IBlogDetail {
 export default function BlogDetail({ post }: IBlogDetail) {
   return (
     <Layout>
-      <MetaHead title={`${post.title} | Ksana.in`} description={post.excerpt} />
+      <MetaHead title={`${post.title} | hamsh.me`} description={post.excerpt} />
       <Head>
         <script
           type="application/ld+json"

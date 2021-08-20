@@ -61,8 +61,8 @@ function About() {
   return (
     <Layout>
       <MetaHead
-        title="Tentang Kami | Ksana.in"
-        description="Ksana.in adalah layanan pemendek tautan / URL yang gratis dan mudah untuk digunakan, buatan asli anak Indonesia"
+        title="Tentang Kami | hamsh.me"
+        description="hamsh.me adalah layanan pemendek tautan / URL yang gratis dan mudah untuk digunakan, buatan asli anak Indonesia"
       />
       <VStack spacing={2} textAlign="center" as="section" mt="32">
         <Heading
@@ -74,7 +74,7 @@ function About() {
         >
           Tentang Kami
         </Heading>
-        <Image width={200} height={122} src={'/images/orange/ksana.svg'} alt="Ksana.in" />
+        <Image width={200} height={122} src={'/images/orange/Hamsh.svg'} alt="hamsh.me" />
       </VStack>
       <Container maxW={'4xl'} mx="auto" as="section" mt="8">
         <VStack spacing={4}>
@@ -133,10 +133,10 @@ function About() {
               fontSize={{ base: 'lg', md: 'xl' }}
               fontWeight="bold"
             >
-              ksana.in/gh
+              hamsh.me/gh
             </Link>
             <ImageChakra
-              src={'https://img.shields.io/github/stars/mazipan/ksana.in?style=social'}
+              src={'https://img.shields.io/github/stars/mazipan/hamsh.me?style=social'}
             />
           </HStack>
           <Text color={colorText}>
@@ -147,7 +147,7 @@ function About() {
               rel="noopener noreferrer"
               color="orange.400"
               fontWeight="bold"
-              href="https://trakteer.id/mazipan/tip?utm_source=ksana"
+              href="https://trakteer.id/mazipan/tip?utm_source=Hamsh"
             >
               Trakteer.id
             </Link>

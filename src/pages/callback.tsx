@@ -20,9 +20,9 @@ function Callback() {
 
   return (
     <Layout>
-      <MetaHead title="Selamat datang | Ksana.in" robots={NO_INDEXED} />
+      <MetaHead title="Selamat datang | hamsh.me" robots={NO_INDEXED} />
       <Box width="100%">
-        <ErrorDefault title="Selamat datang di Ksana.in" />
+        <ErrorDefault title="Selamat datang di hamsh.me" />
       </Box>
     </Layout>
   )

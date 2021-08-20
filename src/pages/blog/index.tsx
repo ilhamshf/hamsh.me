@@ -16,8 +16,8 @@ export default function BlogIndex({ data }: IBlogProps) {
   return (
     <Layout>
       <MetaHead
-        title="Beranda Blog | Ksana.in"
-        description="Ksana.in adalah layanan pemendek tautan / URL yang gratis dan mudah untuk digunakan, buatan asli anak Indonesia"
+        title="Beranda Blog | hamsh.me"
+        description="hamsh.me adalah layanan pemendek tautan / URL yang gratis dan mudah untuk digunakan, buatan asli anak Indonesia"
       />
 
       <VStack spacing={4} textAlign="center" as="section" mt="32">
@@ -29,7 +29,7 @@ export default function BlogIndex({ data }: IBlogProps) {
             lineHeight={'110%'}
             color="orange.400"
           >
-            Blog Ksana.in
+            Blog hamsh.me
           </Heading>
         </VStack>
       </VStack>

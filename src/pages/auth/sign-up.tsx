@@ -10,8 +10,8 @@ function Register() {
   return (
     <LayoutAuth minH={'100vh'} bg={bgColor}>
       <MetaHead
-        title="Daftar Akun | Ksana.in"
-        description="Tertarik mencoba layanan pemendek tautan / URL yang gratis dan sangat mudah digunakan? Mari daftarkan akun baru di Ksana.in"
+        title="Daftar Akun | hamsh.me"
+        description="Tertarik mencoba layanan pemendek tautan / URL yang gratis dan sangat mudah digunakan? Mari daftarkan akun baru di hamsh.me"
       />
       <AuthSignUp />
     </LayoutAuth>

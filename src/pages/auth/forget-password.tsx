@@ -10,8 +10,8 @@ function ForgetPasswordPage() {
   return (
     <LayoutAuth minH={'100vh'} bg={bgColor}>
       <MetaHead
-        title="Lupa Password | Ksana.in"
-        description="Apakah Anda lupa dengan password untuk masuk ke Ksana.in? Tenang, masih bisa di reset dengan mudah. Tidak sampai 1 menit selesai."
+        title="Lupa Password | hamsh.me"
+        description="Apakah Anda lupa dengan password untuk masuk ke hamsh.me? Tenang, masih bisa di reset dengan mudah. Tidak sampai 1 menit selesai."
       />
       <AuthForgetPassword />
     </LayoutAuth>

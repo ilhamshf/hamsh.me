@@ -23,8 +23,8 @@ function Terms() {
   return (
     <Layout>
       <MetaHead
-        title="Ketentuan Layanan | Ksana.in"
-        description="Persyaratan layanan yang merupakan perjanjian mengikat dan mengatur penggunaan Anda atas Ksana.in"
+        title="Ketentuan Layanan | hamsh.me"
+        description="Persyaratan layanan yang merupakan perjanjian mengikat dan mengatur penggunaan Anda atas hamsh.me"
       />
       <VStack spacing={4} textAlign="center" as="section" mt="32">
         <VStack spacing={4} textAlign="center">
@@ -37,7 +37,7 @@ function Terms() {
           >
             Ketentuan Layanan
           </Heading>
-          <Image width={200} height={122} src={'/images/orange/ksana.svg'} alt="Ksana.in" />
+          <Image width={200} height={122} src={'/images/orange/Hamsh.svg'} alt="hamsh.me" />
         </VStack>
 
         <Container maxW={'4xl'} mx="auto" as="section">

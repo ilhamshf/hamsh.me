@@ -7,7 +7,7 @@ tags: [pemendek-tautan]
 ---
 
 S.id (https://s.id), telah menjelma menjadi salah satu pemendek tautan terbaik buatan Indonesia, bukan hanya digunakan oleh orang Indonesia saja bahkan juga terkenal digunakan oleh orang luar sana.
-Salah satunya ya karena domain yang sangat pendek. Cuma 3 huruf, contohnya: [https://s.id/ksana](https://s.id/ksana).
+Salah satunya ya karena domain yang sangat pendek. Cuma 3 huruf, contohnya: [https://s.id/Hamsh](https://s.id/Hamsh).
 Kemampuan dasar, seperti memendekkan URL dengan mudah, membuat url otomatis, membuat kustom url yang sudah dibuat, melihat statistik, dan banyak hal lainnya merupakan fitur yang telah tersedia di s.id.
 
 Sayangnya semakin populer, maka menjadi semakin mainstream. Sudah bukan barang yang aneh lagi menggunakan pemendek tautan s.id.
@@ -25,7 +25,7 @@ Kamu bisa membuat custom URL, menambahkan berbagai opsi tambahan seperti menamba
 
 Di Dik.si kamu bisa melakukan *grouping* atau mengelompokkan tautan kedalam suatu group, melihat statistik kunjungan dengan satuan waktu seperti mingguan, bulanan, tahunan atau bahkan kustom.
 
-Berikut contoh alamat Dik.si yang saya buat: [https://dik.si/ksana](https://dik.si/ksana
+Berikut contoh alamat Dik.si yang saya buat: [https://dik.si/Hamsh](https://dik.si/Hamsh
 
 ## [Intip.in](https://intip.in)
 
@@ -38,9 +38,9 @@ Tanpa fitur ini, kita masih bisa memendekkan tautan, hanya saja kita akan kehila
 
 Tapi sebagai alternatif dari hal yang mainstream, rasanya masih cukup untuk digunakan lah.
 
-Berikut contoh tautan yang saya buat: [https://intip.in/ksana](https://intip.in/ksana)
+Berikut contoh tautan yang saya buat: [https://intip.in/Hamsh](https://intip.in/Hamsh)
 
-## [Ksana.in](https://ksana.in)
+## [hamsh.me](https://hamsh.me)
 
 Ini adalah layanan teranyar yang dibuat tahun 2021, jadi pastinya masih diurus dengan baik.
 Dibuat dengan tampilan yang kekinian, agar mudah digunakan dan dipahami sama para generasi milenial.
