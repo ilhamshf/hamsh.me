@@ -2,7 +2,7 @@
 
 <img alt="ksana.in" src="public/images/orange/ksana.png" height="80"/>
 
-✂️ Layanan pemendek tautan yang mudah, gratis & tanpa iklan
+✂️ Layanan pemendek tautan yang mudah, gratis & tanpa iklan by ksana.in
 
 ## Features
 
