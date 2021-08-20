@@ -52,15 +52,6 @@ export function Footer() {
               <Link href={'/'} textDecoration="underline">
                 {BRAND}
               </Link>{' '}
-              dibuat oleh{' '}
-              <Link
-                textDecoration="underline"
-                href={'https://mazipan.space/'}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Irfan Maulana
-              </Link>
             </Text>
           </Flex>
         </Container>
