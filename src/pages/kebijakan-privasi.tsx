@@ -12,7 +12,7 @@ function Privacy() {
   return (
     <Layout>
       <MetaHead
-        title="Kebijakan Keamanan Privasi | Ksana.in"
+        title="Kebijakan Keamanan Privasi | Hamsh.me"
         description="Kebijakan keamanan privasi mengenai informasi pribadi Anda yang disimpan dan dibagikan di Ksana.in"
       />
       <VStack spacing={4} textAlign="center" as="section" mt="32">
