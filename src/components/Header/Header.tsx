@@ -1,4 +1,4 @@
-import { Link, Flex, Button } from '@chakra-ui/react'
+import { Flex, Button } from '@chakra-ui/react'
 import { useEffect, useRef, useState } from 'react'
 import { HiDownload } from 'react-icons/hi'
 
