@@ -3,22 +3,11 @@ import {
   Container,
   Flex,
   Stack,
-  SimpleGrid,
   Text,
   Link,
   useColorModeValue
 } from '@chakra-ui/react'
 
-import {
-  login,
-  register,
-  tentang,
-  blog,
-  ketentuanLayanan,
-  kebijakanPrivasi,
-  github,
-  splitbeeAnalytics
-} from 'constants/paths'
 import { BRAND } from 'constants/texts'
 
 export function Footer() {
@@ -46,74 +35,6 @@ export function Footer() {
           <use xlinkHref="#gentle-wave" x="90" y="30" fill="rgba(237, 137, 54, 0.7)" />
         </g>
       </svg>
-
-      <Box width="100%">
-        <Container maxW={'5xl'}>
-          <SimpleGrid columns={{ base: 1, md: 4 }} spacing={8} py={4}>
-            <Stack align={'flex-start'}>
-              <Text fontWeight="700" color="orange.400" fontSize={'lg'} mb={2}>
-                Lebih banyak
-              </Text>
-              <Link href={tentang}>Tentang Ksana.in</Link>
-              <Link href={blog}>Blog</Link>
-              <Link href={login}>Masuk</Link>
-              <Link href={register}>Daftar</Link>
-            </Stack>
-
-            <Stack align={'flex-start'}>
-              <Text fontWeight="700" color="orange.400" fontSize={'lg'} mb={2}>
-                Sumber daya
-              </Text>
-
-              <Link href={github} target="_blank" rel="noopener noreferrer">
-                Github Repo
-              </Link>
-              <Link
-                href="https://github.com/mazipan/ksana.in/issues/new"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Laporkan Isu
-              </Link>
-              <Link href={splitbeeAnalytics} target="_blank" rel="noopener noreferrer">
-                Statistik Ksana.in
-              </Link>
-              <Link
-                href="https://trakteer.id/mazipan/tip?utm_source=ksana"
-                target="_blank"
-                title="Dukung Ksana.in"
-                rel="noopener noreferrer"
-              >
-                Dukung Ksana.in
-              </Link>
-              <Link
-                href="https://www.baca-quran.id/?utm_source=ksana"
-                target="_blank"
-                title="Cek Baca-Quran.id"
-                rel="noopener noreferrer"
-              >
-                Cek Baca-Quran.id
-              </Link>
-              <Link
-                href="https://pramuka.online/?utm_source=ksana"
-                target="_blank"
-                title="Cek Pramuka.Online"
-                rel="noopener noreferrer"
-              >
-                Cek Pramuka.Online
-              </Link>
-            </Stack>
-
-            <Stack align={'flex-start'}>
-              <Text fontWeight="700" color="orange.400" fontSize={'lg'} mb={2}>
-                Kebijakan
-              </Text>
-              <Link href={kebijakanPrivasi}>Kebijakan Privasi</Link>
-              <Link href={ketentuanLayanan}>Ketentuan Layanan</Link>
-            </Stack>
-          </SimpleGrid>
-        </Container>
-      </Box>
 
       <Box bg="orange.400" width="100%">
         <Container maxW={'5xl'}>
