@@ -8,7 +8,6 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 
-import { BRAND } from 'constants/texts'
 
 export function Footer() {
   const boxColor = useColorModeValue('gray.700', 'gray.200')

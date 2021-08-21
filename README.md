@@ -1,6 +1,6 @@
 # [hamsh.me](https://hamsh.me)
 
-<img alt="hamsh.me" src="public/images/orange/Hamsh.png" height="80"/>
+<img alt="hamsh.me" src="public/images/white/header.png" height="80"/>
 
 ✂️ Layanan pemendek tautan yang mudah, gratis & tanpa iklan by hamsh.me
 
