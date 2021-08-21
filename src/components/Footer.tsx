@@ -48,12 +48,12 @@ export function Footer() {
           >
             <Text>
               © 2021 Build By{' '}
-              <Link href={'https://github.com/mazipan'} textDecoration="underline">
-              Mazipan
-              </Link>{' '}
-              & {' '}
               <Link href={'https://instagram.com/ilham.shff'} textDecoration="underline">
-                Ilham Shofa
+              Ilham Shofa
+              </Link>{' '}
+              based on {' '}
+              <Link href={'https://ksana.in'} textDecoration="underline">
+                Ksana.in
               </Link>{' '}
             </Text>
           </Flex>
