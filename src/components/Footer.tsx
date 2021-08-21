@@ -46,7 +46,7 @@ export function Footer() {
             justify={{ md: 'space-between' }}
             align={{ md: 'center' }}
           >
-            <Text>
+            <Text color='white.400'>
               © 2021 Build By{' '}
               <Link href={'https://instagram.com/ilham.shff'} textDecoration="underline">
               Ilham Shofa
