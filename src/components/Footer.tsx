@@ -48,9 +48,13 @@ export function Footer() {
             align={{ md: 'center' }}
           >
             <Text>
-              © 2021{' '}
-              <Link href={'/'} textDecoration="underline">
-                {BRAND}
+              © 2021 Build By{' '}
+              <Link href={'https://github.com/mazipan'} textDecoration="underline">
+              Mazipan
+              </Link>{' '}
+              & {' '}
+              <Link href={'https://instagram.com/ilham.shff'} textDecoration="underline">
+                Ilham Shofa
               </Link>{' '}
             </Text>
           </Flex>
