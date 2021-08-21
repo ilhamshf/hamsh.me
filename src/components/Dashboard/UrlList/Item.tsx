@@ -172,7 +172,7 @@ export function Item({ user, data }: IUrlItemProps) {
         as="a"
         fontSize={{ base: 'lg', md: 'xl' }}
         fontWeight="700"
-        color="orange.400"
+        color="#0076C8"
         href={`${HOME}${data.slug}`}
         mb="4"
         display="block"
@@ -196,7 +196,7 @@ export function Item({ user, data }: IUrlItemProps) {
             onClick={handleClickSave}
             aria-label="Simpan slug"
             size="lg"
-            bg="orange.400"
+            bg="#0076C8"
             borderRadius="md"
             isLoading={isLoadingSave}
             icon={<HiSave color="#FFF" />}
@@ -223,7 +223,7 @@ export function Item({ user, data }: IUrlItemProps) {
           fontSize="20px"
           variant="ghost"
           borderRadius="md"
-          icon={isSuccessCopy ? <HiCheck color="#48BB78" /> : <HiDuplicate color="#ED8936" />}
+          icon={isSuccessCopy ? <HiCheck color="#48BB78" /> : <HiDuplicate color="#0076C8" />}
         />
         {isSupportShare ? (
           <IconButton
@@ -235,7 +235,7 @@ export function Item({ user, data }: IUrlItemProps) {
             variant="ghost"
             borderRadius="md"
             isLoading={isLoadingShare}
-            icon={<HiShare color="#ED8936" />}
+            icon={<HiShare color="#0076C8" />}
           />
         ) : (
           <SharePopover url={`${HOME}${data.slug}`} />
@@ -248,7 +248,7 @@ export function Item({ user, data }: IUrlItemProps) {
           fontSize="20px"
           variant="ghost"
           borderRadius="md"
-          icon={<HiPencil color="#ED8936" />}
+          icon={<HiPencil color="#0076C8" />}
         />
         <IconButton
           onClick={() => {
@@ -258,7 +258,7 @@ export function Item({ user, data }: IUrlItemProps) {
           fontSize="20px"
           variant="ghost"
           borderRadius="md"
-          icon={<HiTrash color="#ED8936" />}
+          icon={<HiTrash color="#0076C8" />}
         />
       </HStack>
     </ListItem>

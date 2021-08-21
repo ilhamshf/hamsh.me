@@ -27,7 +27,7 @@ export function DashboardWrapper({ user }: IDashboardWrapperProps) {
       {user && user.id ? (
         <Stack spacing={8} width="100%">
           <Flex justifyContent="space-between" alignItems="center">
-            <Heading as="h3" size="2xl" color="orange.400" display="flex">
+            <Heading as="h3" size="2xl" color="#0076C8" display="flex">
               <Text>Tautan Saya</Text>
             </Heading>
             <IconButton
@@ -35,12 +35,12 @@ export function DashboardWrapper({ user }: IDashboardWrapperProps) {
               aria-label="Tambah baru"
               fontSize="20px"
               borderRadius="md"
-              bg={'orange.400'}
+              bg={'#0076C8'}
               _hover={{
-                bg: 'orange.500'
+                bg: '#005087'
               }}
               _focus={{
-                bg: 'orange.500'
+                bg: '#005087'
               }}
               icon={showAdd ? <HiMinus color="white" /> : <HiPlus color="white" />}
             />

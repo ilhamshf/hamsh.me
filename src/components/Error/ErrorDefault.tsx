@@ -22,16 +22,16 @@ export function ErrorDefault({ title, ctaLink, ctaText }: IErrorDefaultProps) {
         <Image
           width={400}
           height={400}
-          src={'/images/illustrations/ill_error_by_manypixels.svg'}
+          src={'/images/illustrations/Processing-amico.svg'}
           alt="Error happened"
         />
         <Button
           px={6}
           size="lg"
           color={'white'}
-          bg="orange.400"
+          bg="#0076C8"
           _hover={{
-            bg: 'orange.500'
+            bg: '#005087'
           }}
           as={'a'}
           href={ctaLink}

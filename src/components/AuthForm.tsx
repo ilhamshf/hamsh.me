@@ -136,7 +136,7 @@ export function AuthForm({ state }: IAuthFormProps) {
         title: `${stateType === 'login' ? 'Login' : 'Register'} success`,
         message: `${
           stateType === 'login'
-            ? 'Selamat datang kembali!'
+            ? 'Haiii selamat datang kembali!'
             : 'Terima kasih telah mendaftar. Silahkan melakukan verifikasi dengan mengklik tautan yang kami kirimkan melalui email.'
         }`,
         onClose: () => {
@@ -187,7 +187,7 @@ export function AuthForm({ state }: IAuthFormProps) {
           fontWeight={700}
           fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
           lineHeight={'110%'}
-          color="orange.400"
+          color="#0076C8"
         >
           {isLogin ? 'Masuk ke akunmu' : 'Daftarkan akun baru'}
         </Heading>
@@ -222,7 +222,7 @@ export function AuthForm({ state }: IAuthFormProps) {
 
           {errorForm && (
             <Text color="red.300" fontSize="xs">
-              Galat: {errorForm}
+              Oh Tidak, {errorForm}
             </Text>
           )}
 
@@ -233,7 +233,7 @@ export function AuthForm({ state }: IAuthFormProps) {
                 align={'start'}
                 justify={'space-between'}
               >
-                <Button variant="link" as={Link} color={'orange.400'} href={forgetPasword}>
+                <Button variant="link" as={Link} color={'#0076C8'} href={forgetPasword}>
                   Lupa password?
                 </Button>
               </Stack>
@@ -243,9 +243,9 @@ export function AuthForm({ state }: IAuthFormProps) {
               isLoading={loading}
               loadingText="Memproses"
               w="full"
-              bg="orange.400"
+              bg="#0076C8"
               _hover={{
-                bg: 'orange.500'
+                bg: '#005087'
               }}
               color="white"
               onClick={handleSubmit}
@@ -257,14 +257,14 @@ export function AuthForm({ state }: IAuthFormProps) {
           {isLogin ? (
             <Stack direction="row" align={'center'} justify={'center'}>
               <Text>Belum punya akun? </Text>
-              <Button variant="link" as={Link} color={'orange.400'} onClick={toggleState}>
+              <Button variant="link" as={Link} color={'#0076C8'} onClick={toggleState}>
                 Daftar sekarang
               </Button>
             </Stack>
           ) : (
             <Stack direction="row" align={'center'} justify={'center'}>
               <Text>Sudah punya akun? </Text>
-              <Button variant="link" as={Link} color={'orange.400'} onClick={toggleState}>
+              <Button variant="link" as={Link} color={'#0076C8'} onClick={toggleState}>
                 Masuk
               </Button>
             </Stack>

@@ -24,7 +24,7 @@ export function ErrorNotLogin({ title, ctaLink, ctaText }: IErrorNotLoginProps) 
         <Image
           width={400}
           height={400}
-          src={'/images/illustrations/ill_protection_by_manypixels.svg'}
+          src={'/images/illustrations/Security-rafiki.svg'}
           alt="Security Shield"
         />
 
@@ -32,7 +32,7 @@ export function ErrorNotLogin({ title, ctaLink, ctaText }: IErrorNotLoginProps) 
           px={6}
           size="lg"
           color={'white'}
-          bg="orange.400"
+          bg="#0076C8"
           _hover={{
             bg: 'orange.500'
           }}

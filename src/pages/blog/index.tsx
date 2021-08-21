@@ -27,7 +27,7 @@ export default function BlogIndex({ data }: IBlogProps) {
             fontWeight={700}
             fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}
-            color="orange.400"
+            color="#0076C8"
           >
             Blog hamsh.me
           </Heading>

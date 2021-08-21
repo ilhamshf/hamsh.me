@@ -22,7 +22,7 @@ function Privacy() {
             fontWeight={700}
             fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}
-            color="orange.400"
+            color="#0076C8"
           >
             Kebijakan Privasi
           </Heading>
@@ -33,7 +33,7 @@ function Privacy() {
           <VStack spacing={8} textAlign="left">
             <Text color={textColor}>
               Kami di{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>{' '}
               menyadari bahwa Anda mengharapkan privasi dan keamanan dalam hal informasi yang
@@ -53,13 +53,13 @@ function Privacy() {
               Mengapa {BRAND} meminta informasi tentang Anda
             </Heading>
             <Text color={textColor}>
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>{' '}
               mengumpulkan dan menyimpan Informasi Pribadi tentang Anda hanya ketika Anda telah
               berkomunikasi dengan kami melalui email (kami akan mengumpulkan alamat email Anda),
               ketika Anda mendaftar untuk menggunakan layanan{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>{' '}
               (kami akan menanyakan nama dan alamat email Anda) , dan saat Anda mendaftar untuk
@@ -101,11 +101,11 @@ function Privacy() {
               Kami tidak menggunakan vendor pihak ketiga dan mitra hosting untuk menyediakan
               perangkat keras, perangkat lunak, jaringan, penyimpanan, dan teknologi terkait yang
               diperlukan untuk menjalankan{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>
               . Kami memiliki kode, database, dan semua hak atas aplikasi{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>
               , Anda memegang semua hak atas data Anda.
@@ -160,7 +160,7 @@ function Privacy() {
             <Text color={textColor}>
               Ketika Anda memberikan Informasi Pribadi kepada kami, Anda menyetujui pengumpulan dan
               penggunaan informasi ini oleh{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>
               .
@@ -196,7 +196,7 @@ function Privacy() {
             </Heading>
             <Text color={textColor}>
               Jika{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>
               , atau secara substansial semua asetnya diakuisisi, atau dalam hal yang tidak mungkin
@@ -204,7 +204,7 @@ function Privacy() {
               menjadi salah satu aset yang dialihkan atau diakuisisi oleh pihak ketiga. Anda
               mengakui bahwa transfer tersebut dapat terjadi, dan bahwa setiap pihak yang
               mengakuisisi{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>{' '}
               dapat terus menggunakan Informasi Pribadi sebagaimana diatur dalam kebijakan ini.
@@ -225,7 +225,7 @@ function Privacy() {
               tentang perubahan signifikan dalam cara kami memperlakukan informasi pribadi dengan
               mengirimkan pemberitahuan ke alamat email utama yang ditentukan di akun pemegang akun
               utama{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>{' '}
               Anda atau dengan menempatkan pemberitahuan yang mencolok di situs kami.
@@ -235,7 +235,7 @@ function Privacy() {
             </Text>
             <Text color={textColor} mt="8">
               Terakhir diperbarui pada{' '}
-              <Text color="orange.400" as="span">
+              <Text color="#0076C8" as="span">
                 29 Mei 2021
               </Text>
             </Text>

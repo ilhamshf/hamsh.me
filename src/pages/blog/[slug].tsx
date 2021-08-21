@@ -57,7 +57,7 @@ export default function BlogDetail({ post }: IBlogDetail) {
               fontWeight={700}
               fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
               lineHeight={'110%'}
-              color="orange.400"
+              color="#0076C8"
             >
               {post.title}
             </Heading>

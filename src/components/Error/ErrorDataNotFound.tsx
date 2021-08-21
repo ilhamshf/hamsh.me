@@ -26,7 +26,7 @@ export function ErrorDataNotFound({ title, useCta, ctaAction, ctaText }: IErrorD
           <Image
             width={400}
             height={400}
-            src={'/images/illustrations/ill_data_by_manypixels.svg'}
+            src={'/images/illustrations/Empty-amico.svg'}
             alt="man with Data"
           />
 
@@ -35,9 +35,9 @@ export function ErrorDataNotFound({ title, useCta, ctaAction, ctaText }: IErrorD
               px={6}
               size="lg"
               color={'white'}
-              bg="orange.400"
+              bg="#0076C8"
               _hover={{
-                bg: 'orange.500'
+                bg: '#005087'
               }}
               onClick={ctaAction}
             >

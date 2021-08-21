@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="942" height="578" viewBox="0 0 942 578">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+        font-family: "Uni Neue-Trial";
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <text id="hamsh" class="cls-1" transform="translate(37.956 320.066) rotate(-0.189) scale(5.769)">hamsh</text>
+  <text id="_.me" data-name=".me" class="cls-1" transform="matrix(3.913, -0.004, 0.004, 3.913, 580.775, 436.94)">.me</text>
+</svg>

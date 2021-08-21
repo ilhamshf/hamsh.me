@@ -1,8 +1,6 @@
-import { Button, Flex } from '@chakra-ui/react'
+import { Link, Button, Flex } from '@chakra-ui/react'
+import Image from 'next/image'
 
-import {
-  Text
-} from '@chakra-ui/react'
 
 import { HiLogout } from 'react-icons/hi'
 
@@ -25,21 +23,32 @@ export function Header() {
       p="4"
       as="header"
       zIndex="3"
-      bg="orange.400"
+      bg="#0076C8"
     >
       
-      <Text color="#fff" fontSize="xs">
-              hamsh.me
-      </Text>
+      <Link
+        href={'/'}
+        name="Beranda"
+        _hover={{
+          textDecoration: 'none'
+        }}
+      >
+        <Image
+          width={81}
+          height={50}
+          src={'/images/white/header.png'}
+          alt="wm"
+        />
+      </Link> 
 
       <Flex justifyContent="space-between" alignItems="center">
         {!isLoading && isLogin && (
           <Button
             px={6}
             color={'white'}
-            bg="red.400"
+            bg="#FF2700"
             _hover={{
-              bg: 'red.500'
+              bg: '#A41900'
             }}
             mr="2"
             onClick={handleLogout}

@@ -70,7 +70,7 @@ function About() {
           fontWeight={700}
           fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
           lineHeight={'110%'}
-          color="orange.400"
+          color="#0076C8"
         >
           Tentang Kami
         </Heading>
@@ -101,7 +101,7 @@ function About() {
                   href={t.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  color="orange.400"
+                  color="#0076C8"
                   fontSize={{ base: 'lg', md: 'xl' }}
                   fontWeight="bold"
                 >
@@ -129,7 +129,7 @@ function About() {
               href={github}
               target="_blank"
               rel="noopener noreferrer"
-              color="orange.400"
+              color="#0076C8"
               fontSize={{ base: 'lg', md: 'xl' }}
               fontWeight="bold"
             >
@@ -145,7 +145,7 @@ function About() {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              color="orange.400"
+              color="#0076C8"
               fontWeight="bold"
               href="https://trakteer.id/mazipan/tip?utm_source=Hamsh"
             >
@@ -158,7 +158,7 @@ function About() {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              color="orange.400"
+              color="#0076C8"
               fontWeight="bold"
               href="https://mazipan.space"
             >

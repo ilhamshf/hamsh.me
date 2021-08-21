@@ -23,7 +23,7 @@ export function SearchInput({ searchText, onChangeSearch }: ISearchInputProps) {
           />
           <InputRightElement
             fontSize="2em"
-            color="orange.400"
+            color="#0076C8"
             mr="2"
             mt="1"
             children={<FiSearch />}

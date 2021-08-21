@@ -19,14 +19,14 @@ export function HiUser({ user }: IHiUserProps) {
           textAlign="center"
         >
           Selamat datang,{' '}
-          <Text color="orange.400" fontSize={{ base: 'lg', md: 'xl' }}>
+          <Text color="#0076C8" fontSize={{ base: 'lg', md: 'xl' }}>
             {user ? user.email.split('@')[0] : ''}
           </Text>
         </Heading>
         <Image
           width={400}
           height={400}
-          src={'/images/illustrations/ill_teamwork_by_manypixels.svg'}
+          src={'/images/illustrations/Coworking-pana.svg'}
           alt="Teamwork"
         />
       </Stack>
@@ -36,7 +36,7 @@ export function HiUser({ user }: IHiUserProps) {
           px={6}
           size="lg"
           color={'white'}
-          bg="orange.400"
+          bg="#0076C8"
           _hover={{
             bg: 'orange.500'
           }}

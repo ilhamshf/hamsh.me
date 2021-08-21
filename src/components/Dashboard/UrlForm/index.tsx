@@ -83,7 +83,7 @@ export function UrlForm({ user, onSuccess }: IUrlFormProps) {
       if (!errorInsert) {
         showAlert({
           title: 'Sukses menyimpan tautan baru',
-          message: 'Tautan telah disimpan dalam basis data kami, silahkan mulai bagikan',
+          message: 'Tautan telah disimpan dalam basis data kami, kamu dapat membagikannya sekarang',
           onClose: () => {
             hideAlert()
             mutate(apiUrlsGet(user?.id))
@@ -117,7 +117,7 @@ export function UrlForm({ user, onSuccess }: IUrlFormProps) {
             isInvalid={Boolean(errorText)}
             size="lg"
             name="url"
-            placeholder={'Tautan yang akan dipercantik'}
+            placeholder={'Tautan yang ingin dipercantik'}
             variant="filled"
             value={url}
             onChange={handleChangeUrl}
@@ -130,7 +130,7 @@ export function UrlForm({ user, onSuccess }: IUrlFormProps) {
         <FormControl id="slug" isRequired>
           <InputGroup size="lg">
             <InputLeftAddon
-              color={'orange.400'}
+              color={'#22A5FF'}
               fontWeight="bold"
               px={2}
               children={HOME?.replace('https://', '').replace('http://', '')}
@@ -161,17 +161,17 @@ export function UrlForm({ user, onSuccess }: IUrlFormProps) {
         {isCheckPass ? (
           <Button
             isLoading={loading}
-            loadingText="Processing"
+            loadingText="Mengecek..."
             size="lg"
             px={6}
             mt="4"
             color={'white'}
-            bg={'green.400'}
+            bg={'#2AD400'}
             _hover={{
-              bg: 'green.500'
+              bg: '#21A400'
             }}
             _focus={{
-              bg: 'green.500'
+              bg: '#21A400'
             }}
             onClick={handleSaveNew}
           >
@@ -185,12 +185,12 @@ export function UrlForm({ user, onSuccess }: IUrlFormProps) {
             px={6}
             my="4"
             color={'white'}
-            bg={'orange.400'}
+            bg={'#0076C8'}
             _hover={{
-              bg: 'orange.500'
+              bg: '#005087'
             }}
             _focus={{
-              bg: 'orange.500'
+              bg: '#005087'
             }}
             onClick={handleCheckAvailability}
           >

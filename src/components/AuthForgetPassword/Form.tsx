@@ -68,7 +68,7 @@ export function Form() {
   return (
     <Stack spacing={8} mx={'auto'} mt="20" maxW={'lg'} py={12} px={6}>
       <Stack align={'center'}>
-        <Heading fontSize={'4xl'} color="orange.400">
+        <Heading fontSize={'4xl'} color="#0076C8">
           Lupa password
         </Heading>
       </Stack>
@@ -90,9 +90,9 @@ export function Form() {
             isLoading={loading}
             loadingText="Memproses"
             w="full"
-            bg="orange.400"
+            bg="#0076C8"
             _hover={{
-              bg: 'orange.500'
+              bg: '#005087'
             }}
             onClick={handleSubmit}
           >

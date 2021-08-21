@@ -33,7 +33,7 @@ function Terms() {
             fontWeight={700}
             fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}
-            color="orange.400"
+            color="#0076C8"
           >
             Ketentuan Layanan
           </Heading>
@@ -44,20 +44,20 @@ function Terms() {
           <VStack spacing={8} textAlign="left">
             <Text color={textColor}>
               Terima kasih telah menggunakan{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>{' '}
               . Persyaratan layanan ini merupakan perjanjian yang mengikat dan mengatur penggunaan
               Anda atas{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>{' '}
               dan akses ke situs web{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>{' '}
               . Dengan menggunakan salah satu layanan{' '}
-              <Link href="/" color="orange.400">
+              <Link href="/" color="#0076C8">
                 {BRAND}
               </Link>
               , atau mengakses salah satu situs web kami, Anda setuju untuk terikat oleh persyaratan
@@ -110,7 +110,7 @@ function Terms() {
             <Text color={textColor}>
               Kami menghormati privasi Anda. Pernyataan lengkap tentang kebijakan privasi kami dapat
               ditemukan di{' '}
-              <Link href="/kebijakan-privasi" color="orange.400">
+              <Link href="/kebijakan-privasi" color="#0076C8">
                 halaman kebijakan privasi
               </Link>
               . Kebijakan privasi kami secara tegas dimasukkan sebagai referensi ke dalam perjanjian
@@ -196,7 +196,7 @@ function Terms() {
             </Text>
             <Text color={textColor} mt="8">
               Terakhir diperbarui pada{' '}
-              <Text color="orange.400" as="span">
+              <Text color="#0076C8" as="span">
                 29 Mei 2021
               </Text>
             </Text>

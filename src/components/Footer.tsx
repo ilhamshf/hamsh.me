@@ -29,14 +29,14 @@ export function Footer() {
           />
         </defs>
         <g className="parallax">
-          <use xlinkHref="#gentle-wave" x="5" y="0" fill="rgba(237, 137, 54, 0.18)" />
-          <use xlinkHref="#gentle-wave" x="20" y="3" fill="rgba(237, 137, 54, 0.3)" />
-          <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(237, 137, 54, 0.4)" />
-          <use xlinkHref="#gentle-wave" x="90" y="30" fill="rgba(237, 137, 54, 0.7)" />
+          <use xlinkHref="#gentle-wave" x="5" y="0" fill="rgba(0, 118, 200, 0.18)" />
+          <use xlinkHref="#gentle-wave" x="20" y="3" fill="rgba(0, 118, 200, 0.3)" />
+          <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(0, 118, 200, 0.4)" />
+          <use xlinkHref="#gentle-wave" x="90" y="30" fill="rgba(0, 118, 200, 0.7)" />
         </g>
       </svg>
 
-      <Box bg="orange.400" width="100%">
+      <Box bg="#0076C8" width="100%">
         <Container maxW={'5xl'}>
           <Flex
             as={Stack}

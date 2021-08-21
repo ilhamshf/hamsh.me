@@ -30,12 +30,12 @@ export function Hero() {
               lineHeight={'110%'}
             >
               Pemendek tautan yang{' '}
-              <Text color="orange.400" as="span">
-                mudah
+              <Text color="#0076C8" as="span">
+                simpel
               </Text>{' '}
               dan{' '}
-              <Text color="orange.400" as="span">
-                gratis
+              <Text color="#0076C8" as="span">
+                mudah
               </Text>
             </Heading>
 
@@ -55,9 +55,9 @@ export function Hero() {
               rounded="full"
               px={6}
               color={'white'}
-              bg="orange.400"
+              bg="#0076C8"
               _hover={{
-                bg: 'orange.500'
+                bg: '#005087'
               }}
               as={'a'}
               href={login}
@@ -72,7 +72,7 @@ export function Hero() {
           <Image
             width={400}
             height={400}
-            src={'/images/illustrations/ill_by_manypixels.svg'}
+            src={'/images/illustrations/www-amico.svg'}
             alt="Women with Internet"
             priority={true}
           />
