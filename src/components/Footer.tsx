@@ -3,10 +3,22 @@ import {
   Container,
   Flex,
   Stack,
+  SimpleGrid,
   Text,
   Link,
   useColorModeValue
 } from '@chakra-ui/react'
+
+import {
+  login,
+  register,
+  tentang,
+  blog,
+  ketentuanLayanan,
+  kebijakanPrivasi,
+  github,
+  splitbeeAnalytics
+} from 'constants/paths'  
 
 
 export function Footer() {
@@ -35,6 +47,30 @@ export function Footer() {
         </g>
       </svg>
 
+      <Box width="100%">
+        <Container maxW={'5xl'}>
+          <SimpleGrid columns={{ base: 1, md: 4 }} spacing={8} py={4}>
+            <Stack align={'flex-start'}>
+              <Text fontWeight="700" color="#0076C8" fontSize={'lg'} mb={2}>
+                Lebih banyak
+              </Text>
+              <Link href={tentang}>Tentang Hamsh.me</Link>
+              <Link href={blog}>Blog</Link>
+              <Link href={login}>Masuk</Link>
+              <Link href={register}>Daftar</Link>
+            </Stack>
+
+            <Stack align={'flex-start'}>
+              <Text fontWeight="700" color="#0076C8" fontSize={'lg'} mb={2}>
+                Kebijakan
+              </Text>
+              <Link href={kebijakanPrivasi}>Kebijakan Privasi</Link>
+              <Link href={ketentuanLayanan}>Ketentuan Layanan</Link>
+            </Stack>
+          </SimpleGrid>
+        </Container>
+      </Box>
+
       <Box bg="#0076C8" width="100%">
         <Container maxW={'5xl'}>
           <Flex
@@ -52,8 +88,8 @@ export function Footer() {
               Ilham Shofa
               </Link>{' '}
               based on {' '}
-              <Link href={'https://ksana.in'} textDecoration="underline">
-                Ksana.in
+              <Link href={'https://Hamsh.me'} textDecoration="underline">
+                Hamsh.me
               </Link>{' '}
             </Text>
           </Flex>

@@ -26,7 +26,7 @@ function Privacy() {
           >
             Kebijakan Privasi
           </Heading>
-          <Image width={200} height={122} src={'/images/orange/Hamsh.svg'} alt="hamsh.me" />
+          <Image width={200} height={122} src={'/images/white/header.png'} alt="hamsh.me" />
         </VStack>
 
         <Container maxW={'4xl'} mx="auto" as="section">

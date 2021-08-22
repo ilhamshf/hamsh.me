@@ -12,7 +12,7 @@ function SlugPage() {
     <Layout>
       <MetaHead robots={NO_INDEXED} />
       <Box width="100%">
-        <ErrorDefault title="Tautan tidak tersedia" />
+        <ErrorDefault title="Yahh tautan tidak tersedia" />
       </Box>
     </Layout>
   )

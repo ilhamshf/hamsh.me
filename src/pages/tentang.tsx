@@ -51,6 +51,10 @@ const tools = [
   {
     title: 'ManyPixels.co',
     url: 'https://www.manypixels.co/gallery'
+  },
+  {
+    title: 'Storyset.com',
+    url: 'https://storyset.com/'
   }
 ]
 
@@ -74,13 +78,13 @@ function About() {
         >
           Tentang Kami
         </Heading>
-        <Image width={200} height={122} src={'/images/orange/Hamsh.svg'} alt="hamsh.me" />
+        <Image width={200} height={122} src={'/images/white/header.png'} alt="hamsh.me" />
       </VStack>
       <Container maxW={'4xl'} mx="auto" as="section" mt="8">
         <VStack spacing={4}>
           <Text color={colorText}>
             {BRAND} adalah layanan pemendek tautan / URL yang gratis dan mudah untuk digunakan.
-            Layanan ini diinisiasi oleh Irfan Maulana dalam rangka mempelajari layanan baru dari
+            Layanan ini diinisiasi oleh Irfan Maulana dan dikembangkan lagi oleh Ilham Shofa dalam rangka mempelajari layanan baru dari
             Supabase.io, membuat sesuatu projek nyata untuk bisa mengimplementasikan langsung apa
             yang memang sedang ingin dipelajari.
           </Text>
@@ -112,7 +116,7 @@ function About() {
           </SimpleGrid>
           <Text color={colorText}>
             {BRAND} dibuat secara terbuka agar bisa dijadikan bahan pembelajaran bersama, semua kode
-            dan assets tersedia gratis untuk semua pembelajar
+            dan assets tersedia gratis untuk semuanya
           </Text>
           <HStack
             w="80%"
@@ -140,17 +144,7 @@ function About() {
             />
           </HStack>
           <Text color={colorText}>
-            Untuk mendukung saya dan {BRAND} terus berkreasi membuat kode terbuka lainnya, kalian
-            bisa mengirimkan dana untuk membeli kopi melalui{' '}
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              color="#0076C8"
-              fontWeight="bold"
-              href="https://trakteer.id/mazipan/tip?utm_source=Hamsh"
-            >
-              Trakteer.id
-            </Link>
+            Terimakasih telah menggunakan {BRAND} silahkan berikan sarrarn yang membangun agar lebih baik kedepannya{' '}
           </Text>
           <Text color={colorText} mt="16">
             Dari pembuat {BRAND}
@@ -160,9 +154,9 @@ function About() {
               rel="noopener noreferrer"
               color="#0076C8"
               fontWeight="bold"
-              href="https://mazipan.space"
+              href="https://ilhamshf.my.id"
             >
-              Irfan Maulana
+              Ilham Shofa
             </Link>
           </Text>
         </VStack>
