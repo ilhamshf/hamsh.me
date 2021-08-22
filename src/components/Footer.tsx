@@ -16,8 +16,6 @@ import {
   blog,
   ketentuanLayanan,
   kebijakanPrivasi,
-  github,
-  splitbeeAnalytics
 } from 'constants/paths'  
 
 
