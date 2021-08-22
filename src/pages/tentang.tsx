@@ -144,7 +144,7 @@ function About() {
             />
           </HStack>
           <Text color={colorText}>
-            Terimakasih telah menggunakan {BRAND} silahkan berikan sarrarn yang membangun agar lebih baik kedepannya{' '}
+            Terimakasih telah menggunakan {BRAND} silahkan berikan saran yang membangun agar lebih baik kedepannya{' '}
           </Text>
           <Text color={colorText} mt="16">
             Dari pembuat {BRAND}
