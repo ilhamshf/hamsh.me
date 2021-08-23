@@ -86,8 +86,8 @@ export function Footer() {
               Ilham Shofa
               </Link>{' '}
               based on {' '}
-              <Link href={'https://Hamsh.me'} textDecoration="underline">
-                Hamsh.me
+              <Link href={'https://ksana.in'} textDecoration="underline">
+                Ksana.in
               </Link>{' '}
             </Text>
           </Flex>
