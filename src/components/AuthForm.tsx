@@ -191,10 +191,13 @@ export function AuthForm({ state }: IAuthFormProps) {
         >
           {isLogin ? 'Masuk ke akunmu' : 'Daftarkan akun baru'}
         </Heading>
-      </Stack>
+      </Stack> 
+      <Stack>
+      <Text align={'center'}>Maaf, untuk saat ini akses login hanya tersedia menggunakan google </Text>
+      </Stack> 
       <Box rounded={'lg'} bg={bgBox} boxShadow={'lg'} p={8}>
         <Stack spacing={4}>
-          <FormControl id="email" isRequired>
+          {/* <FormControl id="email" isRequired>
             <FormLabel>Email</FormLabel>
             <Input
               isInvalid={Boolean(errorForm)}
@@ -218,7 +221,7 @@ export function AuthForm({ state }: IAuthFormProps) {
               onKeyPress={handleKeyPress}
               autoComplete={isLogin ? 'current-password' : 'new-password'}
             />
-          </FormControl>
+          </FormControl> */}
 
           {errorForm && (
             <Text color="red.300" fontSize="xs">
@@ -239,7 +242,7 @@ export function AuthForm({ state }: IAuthFormProps) {
               </Stack>
             ) : null}
 
-            <Button
+            {/* <Button
               isLoading={loading}
               loadingText="Memproses"
               w="full"
@@ -251,7 +254,7 @@ export function AuthForm({ state }: IAuthFormProps) {
               onClick={handleSubmit}
             >
               {isLogin ? 'Masuk' : 'Daftar Sekarang'}
-            </Button>
+            </Button> */}
           </Stack>
 
           {isLogin ? (
