@@ -21,13 +21,10 @@
  <tbody>
    <tr>
      <td>
-       <img alt="Homepage" src="screenshots/mobile-home.png" />
+       <img alt="Homepage" src="screenshots/home.png" />
      </td>
      <td>
-       <img alt="Homepage" src="screenshots/mobile-login.png" /> 
-     </td>
-     <td>
-       <img alt="Homepage" src="screenshots/mobile-dashboard.png" /> 
+       <img alt="Homepage" src="screenshots/dashboard.png" /> 
      </td>
    </tr>
  </tbody>
