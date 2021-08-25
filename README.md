@@ -102,3 +102,5 @@ If you plan to use it in the bigger frequency, I suggest to deploy it with your 
 ---
 
 Copyright ©️ 2021 by Irfan Maulana
+
+based on [Ksana.in](https://ilhamshf.my.id)
