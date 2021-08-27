@@ -11,15 +11,17 @@ import {
 
 import {
   login,
-  register,
   tentang,
   blog,
   ketentuanLayanan,
   kebijakanPrivasi,
-} from 'constants/paths'  
+  splitbeeAnalytics
+} from 'constants/paths'
+export interface IFooterProps {
+  withBacklink: boolean
+}
 
-
-export function Footer() {
+export function Footer({ withBacklink }: IFooterProps) {
   const boxColor = useColorModeValue('gray.700', 'gray.200')
 
   return (
@@ -38,61 +40,109 @@ export function Footer() {
           />
         </defs>
         <g className="parallax">
-          <use xlinkHref="#gentle-wave" x="5" y="0" fill="rgba(0, 118, 200, 0.18)" />
-          <use xlinkHref="#gentle-wave" x="20" y="3" fill="rgba(0, 118, 200, 0.3)" />
-          <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(0, 118, 200, 0.4)" />
-          <use xlinkHref="#gentle-wave" x="90" y="30" fill="rgba(0, 118, 200, 0.7)" />
-        </g>
-      </svg>
+            <use xlinkHref="#gentle-wave" x="5" y="0" fill="rgba(0, 118, 200, 0.18)" />
+            <use xlinkHref="#gentle-wave" x="20" y="3" fill="rgba(0, 118, 200, 0.3)" />
+            <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(0, 118, 200, 0.4)" />
+            <use xlinkHref="#gentle-wave" x="90" y="30" fill="rgba(0, 118, 200, 0.7)" />
+          </g>
+        </svg>
 
-      <Box width="100%">
-        <Container maxW={'5xl'}>
-          <SimpleGrid columns={{ base: 1, md: 4 }} spacing={8} py={4}>
-            <Stack align={'flex-start'}>
-              <Text fontWeight="700" color="#0076C8" fontSize={'lg'} mb={2}>
-                Lebih banyak
-              </Text>
-              <Link href={tentang}>Tentang Hamsh.me</Link>
-              <Link href={blog}>Blog</Link>
-              <Link href={login}>Masuk</Link>
-              <Link href={register}>Daftar</Link>
-            </Stack>
+      {withBacklink ? (
+        <Box width="100%">
+          <Container maxW={'5xl'}>
+            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8} py={4}>
+              <Stack align={'flex-start'}>
+                <Text fontWeight="700" color="#0076C8" fontSize={'lg'} mb={2}>
+                  Lebih banyak
+                </Text>
+                <Link href={tentang}>Tentang Ksana.in</Link>
+                <Link href={blog}>Blog</Link>
+                <Link href={login}>Masuk</Link>
+              </Stack>
 
-            <Stack align={'flex-start'}>
-              <Text fontWeight="700" color="#0076C8" fontSize={'lg'} mb={2}>
-                Kebijakan
-              </Text>
-              <Link href={kebijakanPrivasi}>Kebijakan Privasi</Link>
-              <Link href={ketentuanLayanan}>Ketentuan Layanan</Link>
-            </Stack>
-          </SimpleGrid>
-        </Container>
-      </Box>
+              <Stack align={'flex-start'}>
+                <Text fontWeight="700" color="#0076C8" fontSize={'lg'} mb={2}>
+                  Kebijakan
+                </Text>
+                <Link href={kebijakanPrivasi}>Kebijakan Privasi</Link>
+                <Link href={ketentuanLayanan}>Ketentuan Layanan</Link>
+              </Stack>
+
+              <Stack align={'flex-start'}>
+                <Text fontWeight="700" color="#0076C8" fontSize={'lg'} mb={2}>
+                  Sumber daya
+                </Text>
+                <Link
+                  href="https://github.com/mazipan/ksana.in/issues/new"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Laporkan Isu
+                </Link>
+                <Link href={splitbeeAnalytics} target="_blank" rel="noopener noreferrer">
+                  Statistik Ksana.in
+                </Link>
+                <Link
+                  href="https://trakteer.id/mazipan/tip?utm_source=ksana"
+                  target="_blank"
+                  title="Dukung Ksana.in"
+                  rel="noopener noreferrer"
+                >
+                  Dukung Ksana.in
+                </Link>
+              </Stack>
+
+              <Stack align={'flex-start'}>
+                <Text fontWeight="700" color="#0076C8" fontSize={'lg'} mb={2}>
+                  Karya lain
+                </Text>
+
+                <Link
+                  href="https://www.baca-quran.id/?utm_source=ksana"
+                  target="_blank"
+                  title="Cek Baca-Quran.id"
+                  rel="noopener noreferrer"
+                >
+                  Baca-Quran.id
+                </Link>
+                <Link
+                  href="https://pramuka.online/?utm_source=ksana"
+                  target="_blank"
+                  title="Cek Pramuka.Online"
+                  rel="noopener noreferrer"
+                >
+                  Pramuka.Online
+                </Link>
+              </Stack>
+            </SimpleGrid>
+          </Container>
+        </Box>
+      ) : null}
 
       <Box bg="#0076C8" width="100%">
-        <Container maxW={'5xl'}>
-          <Flex
-            as={Stack}
-            py={4}
-            alignItems="center"
-            direction={{ base: 'column', md: 'row' }}
-            spacing={4}
-            justify={{ md: 'space-between' }}
-            align={{ md: 'center' }}
-          >
-            <Text color='white.400'>
-              © 2021 Build By{' '}
-              <Link href={'https://instagram.com/ilham.shff'} textDecoration="underline">
-              Ilham Shofa
-              </Link>{' '}
-              based on {' '}
-              <Link href={'https://ksana.in'} textDecoration="underline">
-                Ksana.in
-              </Link>{' '}
-            </Text>
-          </Flex>
-        </Container>
-      </Box>
+          <Container maxW={'5xl'}>
+            <Flex
+              as={Stack}
+              py={4}
+              alignItems="center"
+              direction={{ base: 'column', md: 'row' }}
+              spacing={4}
+              justify={{ md: 'space-between' }}
+              align={{ md: 'center' }}
+            >
+              <Text color='white.400'>
+                © 2021 Build By{' '}
+                <Link href={'https://instagram.com/ilham.shff'} textDecoration="underline">
+                Ilham Shofa
+                </Link>{' '}
+                based on {' '}
+                <Link href={'https://ksana.in'} textDecoration="underline">
+                  Ksana.in
+                </Link>{' '}
+              </Text>
+            </Flex>
+          </Container>
+        </Box>
     </Box>
   )
 }

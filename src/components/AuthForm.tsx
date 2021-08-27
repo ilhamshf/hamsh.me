@@ -14,7 +14,8 @@ import {
   Text,
   useColorModeValue
 } from '@chakra-ui/react'
-import { SiGoogle, SiGithub, SiTwitter } from 'react-icons/si'
+import { SiGithub, SiTwitter } from 'react-icons/si'
+import { FcGoogle } from 'react-icons/fc'
 
 import {
   setSessionToServer,
@@ -136,7 +137,7 @@ export function AuthForm({ state }: IAuthFormProps) {
         title: `${stateType === 'login' ? 'Login' : 'Register'} success`,
         message: `${
           stateType === 'login'
-            ? 'Haiii selamat datang kembali!'
+            ? 'Selamat datang kembali!'
             : 'Terima kasih telah mendaftar. Silahkan melakukan verifikasi dengan mengklik tautan yang kami kirimkan melalui email.'
         }`,
         onClose: () => {
@@ -185,18 +186,63 @@ export function AuthForm({ state }: IAuthFormProps) {
       <Stack align={'center'}>
         <Heading
           fontWeight={700}
-          fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
+          fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
           lineHeight={'110%'}
           color="#0076C8"
         >
           {isLogin ? 'Masuk ke akunmu' : 'Daftarkan akun baru'}
         </Heading>
-      </Stack> 
-      <Stack>
-      <Text align={'center'} color='#808080'>Maaf, untuk saat ini akses login hanya tersedia menggunakan google </Text>
-      </Stack> 
+      </Stack>
       <Box rounded={'lg'} bg={bgBox} boxShadow={'lg'} p={8}>
-        <Stack spacing={4}>
+        <VStack
+          direction="row"
+          align={'center'}
+          justify={'center'}
+          borderBottom="1px"
+          borderColor="gray.200"
+          py="4"
+        >
+          {isEnableGoogleLogin && (
+            <Button
+              isLoading={loading}
+              loadingText="Memproses"
+              variant={'outline'}
+              w="full"
+              onClick={handleLoginGoogle}
+              leftIcon={<FcGoogle />}
+            >
+              {isLogin ? 'Masuk dengan Google' : 'Daftar dengan Google'}
+            </Button>
+          )}
+
+          {isEnableTwitterLogin && (
+            <Button
+              isLoading={loading}
+              loadingText="Memproses"
+              variant={'outline'}
+              w="full"
+              onClick={handleLoginTwitter}
+              leftIcon={<SiTwitter fill="#1DA1F2" />}
+            >
+              {isLogin ? 'Masuk dengan Twitter' : 'Daftar dengan Twitter'}
+            </Button>
+          )}
+
+          {isEnableGithubLogin && (
+            <Button
+              isLoading={loading}
+              loadingText="Memproses"
+              variant={'outline'}
+              w="full"
+              onClick={handleLoginGithub}
+              leftIcon={<SiGithub />}
+            >
+              {isLogin ? 'Masuk dengan Github' : 'Daftar dengan Github'}
+            </Button>
+          )}
+        </VStack>
+
+        <Stack spacing={4} mt="4">
           <FormControl id="email" isRequired>
             <FormLabel>Email</FormLabel>
             <Input
@@ -225,7 +271,7 @@ export function AuthForm({ state }: IAuthFormProps) {
 
           {errorForm && (
             <Text color="red.300" fontSize="xs">
-              Oh Tidak, {errorForm}
+              Galat: {errorForm}
             </Text>
           )}
 
@@ -248,7 +294,7 @@ export function AuthForm({ state }: IAuthFormProps) {
               w="full"
               bg="#0076C8"
               _hover={{
-                bg: '#005087'
+                bg: '#00548E'
               }}
               color="white"
               onClick={handleSubmit}
@@ -272,54 +318,6 @@ export function AuthForm({ state }: IAuthFormProps) {
               </Button>
             </Stack>
           )}
-
-          <VStack
-            direction="row"
-            align={'center'}
-            justify={'center'}
-            borderTop="1px"
-            borderColor="gray.200"
-            py="4"
-          >
-            {isEnableGoogleLogin && (
-              <Button
-                isLoading={loading}
-                loadingText="Memproses"
-                variant={'outline'}
-                w="full"
-                onClick={handleLoginGoogle}
-                leftIcon={<SiGoogle />}
-              >
-                {isLogin ? 'Masuk dengan Google' : 'Daftar dengan Google'}
-              </Button>
-            )}
-
-            {isEnableTwitterLogin && (
-              <Button
-                isLoading={loading}
-                loadingText="Memproses"
-                variant={'outline'}
-                w="full"
-                onClick={handleLoginTwitter}
-                leftIcon={<SiTwitter />}
-              >
-                {isLogin ? 'Masuk dengan Twitter' : 'Daftar dengan Twitter'}
-              </Button>
-            )}
-
-            {isEnableGithubLogin && (
-              <Button
-                isLoading={loading}
-                loadingText="Memproses"
-                variant={'outline'}
-                w="full"
-                onClick={handleLoginGithub}
-                leftIcon={<SiGithub />}
-              >
-                {isLogin ? 'Masuk dengan Github' : 'Daftar dengan Github'}
-              </Button>
-            )}
-          </VStack>
         </Stack>
       </Box>
     </Stack>

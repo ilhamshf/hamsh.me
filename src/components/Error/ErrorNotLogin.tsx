@@ -34,7 +34,7 @@ export function ErrorNotLogin({ title, ctaLink, ctaText }: IErrorNotLoginProps) 
           color={'white'}
           bg="#0076C8"
           _hover={{
-            bg: 'orange.500'
+            bg: '#00548E'
           }}
           as={'a'}
           href={ctaLink}
