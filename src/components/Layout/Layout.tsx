@@ -16,7 +16,7 @@ export function Layout({ children, ...props }: ILayoutProps) {
       <Box as="main" minH="90vh" width="100%" {...props}>
         {children}
       </Box>
-      <Footer withBacklink={true} />
+       <Footer withBacklink={false} />
     </Container>
   )
 }
